@@ -1,3 +1,31 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color:#1F2937;
+    color: #F9FAF8;
+}
+
+.top {
+    background-color: #1F2937;
+}
+
+#top {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+ul,
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
