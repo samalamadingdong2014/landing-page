@@ -4,7 +4,8 @@ body {
     flex-direction: column;
 }
 
-.header {
+.header,
+.footer {
     background-color:#1F2937;
     color: #F9FAF8;
 }
@@ -29,3 +30,26 @@ p {
     font-size: 24px;
     color: #f9faf8;
 }
+
+.bottom {
+    background-color: #3882f6;
+}
+
+#bottom {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+
+
