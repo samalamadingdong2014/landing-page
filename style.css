@@ -11,6 +11,11 @@ body {
     display: flex;
 }
 
+.header {
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
 .top {
     background-color: #1F2937;
     display: flex;
@@ -28,13 +33,17 @@ p {
     color: #e5e7eb;
 }
  ul {
-     display: flex;
-     text-decoration: none;
+    display: flex;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 20px;
  }
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    padding-left: 100px;
+    padding-left: 10px;
 }
 
 .bottom {
