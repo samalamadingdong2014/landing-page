@@ -69,10 +69,16 @@ p {
     display: flex; 
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .content {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
 
+.text {
+    max-width: 100px;
 }
