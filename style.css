@@ -56,4 +56,21 @@ p {
     color: #1f2937;
 }
 
+.middle {
+    display: flex;
+}
 
+#middle {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+
+}
