@@ -13,6 +13,7 @@ body {
 
 .top {
     background-color: #1F2937;
+    display: flex;
 }
 
 #top {
@@ -58,11 +59,11 @@ p {
 
 .middle {
     display: flex;
+    flex-direction: column;
 }
 
 #middle {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 .card {
     display: flex; 
@@ -72,5 +73,6 @@ p {
 
 .content {
     display: flex;
+    flex-direction: row;
 
 }
