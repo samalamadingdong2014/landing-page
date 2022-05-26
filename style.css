@@ -49,6 +49,7 @@ p {
 .button {
     background-color: #3882f6;
     color: #f9faf8;
+    border-radius: 5px;
 }
 
 .quote {
@@ -76,9 +77,18 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
 }
 
 .text {
     max-width: 100px;
 }
+
+.image {
+    border-radius: 25px;
+}
+
+.top-text {
+    padding-left: 32px;
+}
+
