@@ -46,9 +46,7 @@ p {
     padding-left: 10px;
 }
 
-.bottom {
-    background-color: #3882f6;
-}
+
 
 #bottom {
     font-size: 36px;
@@ -64,6 +62,7 @@ p {
 .quote {
     background-color: #e5e7eb;
     font-size: 36px;
+    font-style: italic;
     color: #1f2937;
     padding: 100px;
 }
@@ -91,10 +90,11 @@ p {
     flex-direction: row;
     justify-content: center;
     gap: 50px;
+    padding-bottom: 30px;
 }
 
 .text {
-    max-width: 100px;
+    max-width: 200px;
 }
 
 .image {
@@ -103,5 +103,17 @@ p {
 
 .top-text {
     padding-left: 32px;
+}
+
+.box {
+    margin: 40px;
+    background-color: #3882f6;
+    padding: 15px;
+}
+
+#box {
+    color:white;
+    margin: 0;
+    padding: 0;
 }
 
